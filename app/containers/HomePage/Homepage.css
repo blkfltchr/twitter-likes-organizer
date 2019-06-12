@@ -1,0 +1,17 @@
+.btn-purple {
+  color: white;
+  background-color: #6c63ff;
+  font-weight: bold;
+}
+
+.btn-purple:hover {
+  color: #6c63ff;
+  background-color: white;
+  border: solid 2px #6c63ff;
+}
+
+.img-size {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}

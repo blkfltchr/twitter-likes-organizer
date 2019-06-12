@@ -1,9 +1,230 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<HomePage /> should render and match the snapshot 1`] = `
-<h1>
-  <span>
-    This is the HomePage container!
-  </span>
-</h1>
+<div>
+  <section
+    class="fdb-block"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row align-items-center"
+      >
+        <div
+          class="order-md-8 m-auto ml-lg-auto mr-lg-0 col-md-6 pt-2 pt-lg-0"
+        >
+          <img
+            alt="tweetstorm"
+            class="img-fluid"
+            src="IMAGE_MOCK"
+          />
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-6 col-xl-5"
+        >
+          <h1
+            style="font-size: 3.5rem;"
+          >
+            Organize your Twitter likes.
+          </h1>
+          <p
+            class="lead mb-5"
+            style="margin: 20px auto;"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel congue justo. Mauris posuere leo et varius commodo. Ut congue neque id leo tristique suscipit.
+          </p>
+          <p
+            class="h3 mt-4"
+          >
+            <a
+              class="btn btn-purple"
+              href="https://bookmaps.netlify.com/browse"
+            >
+              SIGN UP
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    class="fdb-block"
+    style="background-color: rgb(243, 242, 242);"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row text-left align-items-center pt-5 pb-md-5"
+      >
+        <div
+          class="col-8 col-md-5 m-auto"
+        >
+          <img
+            alt="reading-list"
+            class="img-fluid"
+            src="IMAGE_MOCK"
+          />
+        </div>
+        <div
+          class="col-12 col-md-5 m-md-auto"
+        >
+          <h2
+            style="font-size: 2.5rem;"
+          >
+            <strong>
+              Sort tweets with tags
+            </strong>
+          </h2>
+          <p
+            class="lead"
+            style="margin: 20px auto;"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dolor ut elit imperdiet, vitae aliquet tortor molestie. Aliquam sed quam metus.
+          </p>
+        </div>
+      </div>
+      <div
+        class="row text-left align-items-center pt-5 pb-md-5"
+      >
+        <div
+          class="col-8 col-md-5 m-md-auto order-md-5 m-auto"
+        >
+          <img
+            alt="mind map"
+            class="img-fluid"
+            src="IMAGE_MOCK"
+          />
+        </div>
+        <div
+          class="col-12 col-md-5"
+        >
+          <h2
+            style="font-size: 2.5rem;"
+          >
+            <strong>
+              Create a mindmap of your favorites
+            </strong>
+          </h2>
+          <p
+            class="lead"
+            style="margin: 20px auto;"
+          >
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In at tincidunt odio. Vivamus ultricies a arcu eget suscipit. Nunc arcu mi, aliquam ut eros in, sagittis sollicitudin nisi.
+          </p>
+        </div>
+      </div>
+      <div
+        class="row text-left align-items-center pt-5"
+      >
+        <div
+          class="col-8 col-md-5 m-auto"
+        >
+          <img
+            alt="knowledge"
+            class="img-fluid"
+            src="IMAGE_MOCK"
+          />
+        </div>
+        <div
+          class="col-12 col-md-5 m-md-auto"
+        >
+          <h2
+            style="font-size: 2.5rem;"
+          >
+            <strong>
+              Review what you learned
+            </strong>
+          </h2>
+          <p
+            class="lead"
+            style="margin: 20px auto;"
+          >
+             
+            Nullam at augue ut nibh sagittis gravida et in mi. Donec tincidunt elit sed felis feugiat consequat. Integer a bibendum mauris. Morbi in felis velit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    class="fdb-block"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row justify-content-center"
+      >
+        <div
+          class="col-12 col-md-8 col-lg-7 col-md-5 text-center"
+        >
+          <div
+            class="fdb-box fdb-touch"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col"
+              >
+                <h2
+                  style="font-size: 2.5rem;"
+                >
+                  Sign Up
+                </h2>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="col mt-4"
+              >
+                <a
+                  href="google"
+                  style="margin: 0px auto;"
+                >
+                  <button
+                    class="loginBtn loginBtn--google"
+                    type="button"
+                  >
+                    Signup with Google
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div
+              class="row mt-4"
+            >
+              <div
+                class="col"
+              >
+                <a
+                  href="facebook"
+                  style="margin: 0px auto;"
+                >
+                  <button
+                    class="loginBtn loginBtn--facebook"
+                    type="button"
+                  >
+                    Signup with Facebook
+                  </button>
+                </a>
+                <p>
+                  <a
+                    href="https://bookmaps.netlify.com/login"
+                  >
+                    Already have an account?
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
 `;
